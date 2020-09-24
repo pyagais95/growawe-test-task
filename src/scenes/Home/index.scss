@@ -1,5 +1,16 @@
-.home {
-  width: 100%;
-  height: 100vh;
+.home-container {
   background-color: #EDF7FF;
+  padding: 67px 120px;
+  &__content {
+    display: flex;
+    &__cards {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    &__cases {
+      height: 100%;
+    }
+  }
+
 }

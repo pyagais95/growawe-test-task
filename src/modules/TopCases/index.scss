@@ -1,0 +1,26 @@
+.top-cases__container {
+  background: #1BBC9B;
+  border-radius: 5px;
+  color: #FFFFFF;
+  padding: 20px 60px 0 60px;
+  margin-left: 20px;
+  &__content {
+    width: 240px;
+    &__title {
+      font-weight: 500;
+      font-size: 28px;
+      margin-top: 20px;
+    }
+    &__counter {
+      font-weight: bold;
+      font-size: 100px;
+    }
+    &__date {
+      font-weight: 500;
+      font-size: 22px;
+      padding: 20px;
+      border-top: 1px solid rgba(255, 255, 255, .3);
+    }
+  }
+
+}
